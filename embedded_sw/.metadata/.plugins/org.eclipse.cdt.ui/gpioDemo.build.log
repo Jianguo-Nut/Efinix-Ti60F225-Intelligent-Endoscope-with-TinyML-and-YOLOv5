@@ -1,0 +1,10 @@
+02:15:29 **** Incremental Build of configuration Default for project gpioDemo ****
+make all 
+CC src/main.c
+CC src/softwire.c
+LD gpioDemo
+Memory region         Used Size  Region Size  %age Used
+             ram:        5680 B         8 KB     69.34%
+
+02:15:32 Build Finished. 0 errors, 0 warnings. (took 2s.800ms)
+

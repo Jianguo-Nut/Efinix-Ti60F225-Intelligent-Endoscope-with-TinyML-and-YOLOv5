@@ -1,0 +1,6 @@
+outflow
+embedded_sw/sapphire_soc/software/standalone/evsoc_tinyml_ypd/build
+.claude
+work_pnr
+work_pt
+work_syn

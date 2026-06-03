@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.244435048">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.244435048" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="0.244435048" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.244435048." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1669791245" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1669791245.404328095" name=""/>
+							<builder id="org.eclipse.cdt.build.core.settings.default.builder.126287804" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1616596838" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.233458262" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.incpaths.2125542251" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\riscv-none-embed\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\riscv-none-embed\include\sys&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\lib\gcc\riscv-none-embed\8.3.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\bsp\efinix\EfxSapphireSoc\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\bsp\efinix\EfxSapphireSoc\app&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\software\standalone\driver&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.577954011" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1322784821" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.incpaths.451896230" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\riscv-none-embed\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\riscv-none-embed\include\sys&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\lib\gcc\riscv-none-embed\8.3.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\bsp\efinix\EfxSapphireSoc\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\bsp\efinix\EfxSapphireSoc\app&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\software\standalone\driver&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1362484991" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.155979222" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.incpaths.1477429812" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\riscv-none-embed\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\riscv-none-embed\include\sys&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\lib\gcc\riscv-none-embed\8.3.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Programs\Efinity\efinity-riscv-ide-2025.1\Efinity-RISCV-IDE\/../\toolchain\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\bsp\efinix\EfxSapphireSoc\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\bsp\efinix\EfxSapphireSoc\app&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Elitestek\AE\NJU\Ti60F225_tinyml_vision\embedded_sw\sapphire_soc_tinyml\bsp/../\software\standalone\driver&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="org.eclipse.cdt.build.core.settings.holder.symbols.48899715" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="SYSTEM_UART_A_APB=SYSTEM_UART_0_IO_CTRL"/>
+									<listOptionValue builtIn="false" value="SYSTEM_GPIO_A_APB=SYSTEM_GPIO_0_IO_CTRL"/>
+									<listOptionValue builtIn="false" value="SYSTEM_I2C_A_APB=SYSTEM_UART_0_IO_CTRL"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1469952865" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="uartEchoDemo.null.131336031" name="uartEchoDemo"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.244435048">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>

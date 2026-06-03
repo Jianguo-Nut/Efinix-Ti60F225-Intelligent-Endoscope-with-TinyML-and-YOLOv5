@@ -1,0 +1,89 @@
+{
+    "args": [
+        "-o",
+        "csi_rx",
+        "--base_path",
+        "D:\\efinity project\\Ti60F225_tinyml_vision\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "mipi",
+            "name": "efx_csi2_rx",
+            "version": "5.14"
+        }
+    ],
+    "conf": {
+        "tLPX_NS": "50",
+        "tINIT_NS": "1000",
+        "tCLK_TERM_EN_NS": "38",
+        "tD_TERM_EN_NS": "35",
+        "tHS_SETTLE_NS": "85",
+        "tHS_PREPARE_ZERO_NS": "145",
+        "NUM_DATA_LANE": "1",
+        "ASYNC_STAGE": "2",
+        "HS_BYTECLK_MHZ": "187",
+        "CLOCK_FREQ_MHZ": "100",
+        "DPHY_CLOCK_MODE": "\"Discontinuous\"",
+        "PIXEL_FIFO_DEPTH": "1024",
+        "AREGISTER": "8",
+        "ENABLE_USER_DESKEWCAL": "1'b0",
+        "Pack_40": "1'b1",
+        "Pack_48": "1'b1",
+        "Pack_56": "1'b1",
+        "Pack_64": "1'b1",
+        "FRAME_MODE": "\"GENERIC\"",
+        "ENABLE_VCX": "1'b0",
+        "MIPI_CSI2_RX_DEBUG": "1'b0",
+        "MIPI_CSI2_RX_PIXEL_SIDEBAND": "1'b0"
+    },
+    "output": {
+        "external_source_source": [
+            "csi_rx\\csi_rx_tmpl.sv",
+            "csi_rx\\csi_rx_tmpl.vhd",
+            "csi_rx\\csi_rx.sv",
+            "csi_rx\\csi_rx_define.svh"
+        ],
+        "external_testbench_modelsim": [
+            "csi_rx\\Testbench\\modelsim\\csi_rx.sv"
+        ],
+        "external_testbench_ncsim": [
+            "csi_rx\\Testbench\\ncsim\\csi_rx.sv"
+        ],
+        "external_testbench_synopsys": [
+            "csi_rx\\Testbench\\synopsys\\csi_rx.sv"
+        ],
+        "external_testbench_aldec": [
+            "csi_rx\\Testbench\\aldec\\csi_rx.sv"
+        ],
+        "external_example_example": [
+            "csi_rx\\Ti60F225_devkit\\top.peri.xml",
+            "csi_rx\\Ti60F225_devkit\\top.xml",
+            "csi_rx\\Ti60F225_devkit\\csichk.v",
+            "csi_rx\\Ti60F225_devkit\\efx_csi2_rx.sv",
+            "csi_rx\\Ti60F225_devkit\\efx_csi2_tx.sv",
+            "csi_rx\\Ti60F225_devkit\\mipi.sdc",
+            "csi_rx\\Ti60F225_devkit\\reset_ctrl.v",
+            "csi_rx\\Ti60F225_devkit\\top.sv",
+            "csi_rx\\Ti60F225_devkit\\vga_chk.v",
+            "csi_rx\\Ti60F225_devkit\\vga_gen.v",
+            "csi_rx\\Ti60F225_devkit\\csi_rx.sv",
+            "csi_rx\\Ti60F225_devkit\\csi_rx_define.svh"
+        ],
+        "external_testbench_testbench": [
+            "csi_rx\\Testbench\\TI60_MIPI_csi_tb.sv",
+            "csi_rx\\Testbench\\TI60_MIPI_csi_rx_modelsim.do",
+            "csi_rx\\Testbench\\rx_filelist.f",
+            "csi_rx\\Testbench\\top.sv",
+            "csi_rx\\Testbench\\efx_csi2_tx_modelsim.sv",
+            "csi_rx\\Testbench\\csichk.v",
+            "csi_rx\\Testbench\\reset_ctrl.v",
+            "csi_rx\\Testbench\\vga_chk.v",
+            "csi_rx\\Testbench\\vga_gen.v",
+            "csi_rx\\Testbench\\csi_rx.sv",
+            "csi_rx\\Testbench\\csi_rx_define.svh"
+        ]
+    },
+    "ooc_synthesis": {},
+    "sw_version": "2025.1.110.5.9",
+    "generated_date": "2026-05-11T20:47:39.141789+00:00"
+}

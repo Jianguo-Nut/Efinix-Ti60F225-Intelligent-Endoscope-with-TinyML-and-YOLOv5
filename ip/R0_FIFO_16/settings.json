@@ -1,0 +1,75 @@
+{
+    "args": [
+        "-o",
+        "R0_FIFO_16",
+        "--base_path",
+        "D:\\Tencent\\FileRecv\\Ti60F225_AD2020_HDMI_Display_30FPS\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "8.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "3",
+        "DEPTH_2": "9",
+        "DATA_WIDTH": "128",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "256",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "255",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "ASYM_WIDTH_RATIO": "1",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0",
+        "RAM_STYLE": "\"block_ram\"",
+        "OVERFLOW_PROTECT": "1",
+        "UNDERFLOW_PROTECT": "1"
+    },
+    "output": {
+        "external_source_source": [
+            "R0_FIFO_16\\R0_FIFO_16_tmpl.sv",
+            "R0_FIFO_16\\R0_FIFO_16_define.svh",
+            "R0_FIFO_16\\R0_FIFO_16_tmpl.vhd",
+            "R0_FIFO_16\\R0_FIFO_16.sv"
+        ],
+        "external_example_example": [
+            "R0_FIFO_16\\T20F256_devkit\\fifo_demo_top.v",
+            "R0_FIFO_16\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "R0_FIFO_16\\T20F256_devkit\\efx_symmetric_width_fifo_top.sv",
+            "R0_FIFO_16\\T20F256_devkit\\R0_FIFO_16.sv",
+            "R0_FIFO_16\\T20F256_devkit\\R0_FIFO_16_define.svh",
+            "R0_FIFO_16\\T20F256_devkit\\fifo_demo.peri.xml",
+            "R0_FIFO_16\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "R0_FIFO_16\\Ti60F225_devkit\\fifo_demo_top.v",
+            "R0_FIFO_16\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "R0_FIFO_16\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.sv",
+            "R0_FIFO_16\\Ti60F225_devkit\\R0_FIFO_16.sv",
+            "R0_FIFO_16\\Ti60F225_devkit\\R0_FIFO_16_define.svh",
+            "R0_FIFO_16\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "R0_FIFO_16\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "R0_FIFO_16\\Testbench\\fifo_tb.sv",
+            "R0_FIFO_16\\Testbench\\xrun.sh",
+            "R0_FIFO_16\\Testbench\\msim.sh",
+            "R0_FIFO_16\\Testbench\\flist",
+            "R0_FIFO_16\\Testbench\\modelsim.do",
+            "R0_FIFO_16\\Testbench\\R0_FIFO_16.sv",
+            "R0_FIFO_16\\Testbench\\R0_FIFO_16_define.svh"
+        ]
+    },
+    "ooc_synthesis": {},
+    "sw_version": "2025.1.110.5.9",
+    "generated_date": "2026-05-15T10:51:17.969805+00:00"
+}

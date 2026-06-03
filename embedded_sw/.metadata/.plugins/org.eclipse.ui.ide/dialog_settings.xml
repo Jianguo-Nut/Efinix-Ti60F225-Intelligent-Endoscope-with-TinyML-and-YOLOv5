@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.eclipse.cdt.debug.ui.memory:10.7.1.202410070333"/>
+		<item value="org.eclipse.cdt.examples.dsf:10.7.1.202208160035"/>
+		<item value="org.eclipse.cdt.gdb:10.7.1.202208160035"/>
+		<item value="org.eclipse.cdt.gnu.build:10.7.1.202208160035"/>
+		<item value="org.eclipse.cdt.gnu.debug:10.7.1.202208160035"/>
+		<item value="org.eclipse.cdt.gnu.dsf:10.7.1.202410070333"/>
+		<item value="org.eclipse.cdt.launch.remote:10.7.1.202208160035"/>
+		<item value="org.eclipse.cdt.native:10.7.1.202208222120"/>
+		<item value="org.eclipse.cdt.platform:10.7.1.202410070333"/>
+		<item value="org.eclipse.cdt:10.7.1.202410070333"/>
+		<item value="org.eclipse.embedcdt.debug.gdbjtag.openocd:6.3.1.202410070333"/>
+		<item value="org.eclipse.embedcdt.debug.gdbjtag.qemu:6.3.1.202410070333"/>
+		<item value="org.eclipse.embedcdt.debug.gdbjtag:6.3.1.202410070333"/>
+		<item value="org.eclipse.embedcdt.managedbuild.cross.riscv:6.3.1.202210101738"/>
+		<item value="org.eclipse.embedcdt:6.3.1.202210101738"/>
+		<item value="org.eclipse.emf.common:2.27.0.v20220817-1401"/>
+		<item value="org.eclipse.emf.ecore:2.29.0.v20220817-1401"/>
+		<item value="org.eclipse.help:2.3.900.v20220308-0310"/>
+		<item value="org.eclipse.jdt:3.18.1100.v20220308-0310"/>
+		<item value="org.eclipse.platform:4.23.0.v20220308-0722"/>
+		<item value="org.eclipse.rcp:4.23.0.v20220308-0722"/>
+		<item value="org.eclipse.remote:10.7.1.202208160035"/>
+		<item value="org.eclipse.tm.terminal.connector.ssh.feature:10.7.1.202208160035"/>
+		<item value="org.eclipse.tm.terminal.control.feature:10.7.1.202208160035"/>
+		<item value="org.eclipse.tm.terminal.feature:10.7.1.202208160035"/>
+		<item value="org.eclipse.tm.terminal.view.feature:10.7.1.202208160035"/>
+	</list>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="559"/>
+		<item key="DIALOG_Y_ORIGIN" value="312"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

@@ -1,0 +1,4520 @@
+{
+    "debug_cores": [
+        {
+            "name": "la0",
+            "type": "la",
+            "uuid": "9d51113fbb4344e5b88760106e37617a",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 1024,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "w_mipi_rx_vs",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "w_mipi_rx_hs",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "w_mipi_rx_dt",
+                    "width": 6,
+                    "probe_type": 2
+                },
+                {
+                    "name": "w_mipi_rx_de",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "w_mipi_rx_data",
+                    "width": 64,
+                    "probe_type": 2
+                },
+                {
+                    "name": "cam_dma_wvalid",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "cam_dma_wready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "cam_dma_wlast",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "cam_dma_init_done",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "cam_confdone",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "continuous_capture_frame",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "frames_per_second",
+                    "width": 32,
+                    "probe_type": 2
+                },
+                {
+                    "name": "trigger_capture_frame",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_d0_HS_IN_0",
+                    "width": 8,
+                    "probe_type": 2
+                },
+                {
+                    "name": "o_cam_d0_HS_ENA",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_ck_HS_ENA",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_d0_FIFO_RD",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_ck_HS_TERM",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_d1_FIFO_RD",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_d1_RST",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_d1_HS_TERM",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_d0_HS_TERM",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_d1_HS_ENA",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "o_cam_d0_RST",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_d1_LP_N_IN",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_d0_LP_P_IN",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_ck_CLKOUT_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_ck_LP_N_IN",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_d0_FIFO_EMPTY",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_d0_LP_N_IN",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_d1_LP_P_IN",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_d1_FIFO_EMPTY",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_ck_LP_P_IN",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "i_cam_d1_HS_IN_0",
+                    "width": 8,
+                    "probe_type": 2
+                },
+                {
+                    "name": "w_cam_ck_HS_ENA_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "w_cam_ck_HS_TERM_0",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_csi2_rx_cam/reset_pixel_n",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "u_csi2_rx_cam/reset_byte_HS_n",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "dma_interrupts",
+                    "width": 4,
+                    "probe_type": 1
+                }
+            ]
+        },
+        {
+            "name": "la1",
+            "type": "la",
+            "uuid": "db7fc0d607094e36a0e6d1503c0b76ec",
+            "trigin_en": false,
+            "trigout_en": false,
+            "auto_inserted": true,
+            "capture_control": false,
+            "data_depth": 1024,
+            "input_pipeline": 1,
+            "probes": [
+                {
+                    "name": "hdmi_de",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "hdmi_hs",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "hdmi_vs",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "display_dma_rdata",
+                    "width": 64,
+                    "probe_type": 2
+                },
+                {
+                    "name": "display_dma_rready",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "display_dma_rkeep",
+                    "width": 8,
+                    "probe_type": 2
+                },
+                {
+                    "name": "display_dma_rvalid",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "boundcrop_de",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "boundcrop_hs",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "boundcrop_vs",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "boundcrop_data",
+                    "width": 24,
+                    "probe_type": 1
+                },
+                {
+                    "name": "hdmi_data",
+                    "width": 24,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wvDisplayDmaRed",
+                    "width": 16,
+                    "probe_type": 2
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wvDisplayDmaBlue",
+                    "width": 16,
+                    "probe_type": 2
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wvDisplayDmaGreen",
+                    "width": 16,
+                    "probe_type": 2
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wv14VgaGenOutX",
+                    "width": 14,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wv12VgaGenOutY",
+                    "width": 12,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/rLatchStartFrame_d1",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/rv64OffetDisplay",
+                    "width": 64,
+                    "probe_type": 2
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wvDisplayDataSel",
+                    "width": 64,
+                    "probe_type": 2
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wvDisplayDmaRdData",
+                    "width": 64,
+                    "probe_type": 2
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/rDmaFifoLatchPartialEmpty",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/rLatchStartFrame",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wVgaGenHs",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wVgaGenVs",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wVgaGenDe",
+                    "width": 1,
+                    "probe_type": 1
+                },
+                {
+                    "name": "inst_display_hdmi_rgb/wvDisplayDmaFifoCount",
+                    "width": 12,
+                    "probe_type": 1
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "command": "add_ports",
+            "id": 1,
+            "args": {
+                "netlist": "tinyml_soc_top",
+                "ports": [
+                    {
+                        "name": "jtag_inst2_CAPTURE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_DRCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_RESET",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_RUNTEST",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_SEL",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_SHIFT",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TCK",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TDI",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TMS",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_UPDATE",
+                        "dir": "in",
+                        "width": 1
+                    },
+                    {
+                        "name": "jtag_inst2_TDO",
+                        "dir": "out",
+                        "width": 1
+                    }
+                ]
+            }
+        },
+        {
+            "command": "instantiate",
+            "netlist": "edb_top",
+            "id": 2,
+            "instance": "edb_top_inst"
+        },
+        {
+            "command": "connect",
+            "id": 3,
+            "args": {
+                "instance": "edb_top_inst",
+                "ports": [
+                    {
+                        "name": "bscan_CAPTURE",
+                        "net": "jtag_inst2_CAPTURE"
+                    },
+                    {
+                        "name": "bscan_DRCK",
+                        "net": "jtag_inst2_DRCK"
+                    },
+                    {
+                        "name": "bscan_RESET",
+                        "net": "jtag_inst2_RESET"
+                    },
+                    {
+                        "name": "bscan_RUNTEST",
+                        "net": "jtag_inst2_RUNTEST"
+                    },
+                    {
+                        "name": "bscan_SEL",
+                        "net": "jtag_inst2_SEL"
+                    },
+                    {
+                        "name": "bscan_SHIFT",
+                        "net": "jtag_inst2_SHIFT"
+                    },
+                    {
+                        "name": "bscan_TCK",
+                        "net": "jtag_inst2_TCK"
+                    },
+                    {
+                        "name": "bscan_TDI",
+                        "net": "jtag_inst2_TDI"
+                    },
+                    {
+                        "name": "bscan_TMS",
+                        "net": "jtag_inst2_TMS"
+                    },
+                    {
+                        "name": "bscan_UPDATE",
+                        "net": "jtag_inst2_UPDATE"
+                    },
+                    {
+                        "name": "bscan_TDO",
+                        "net": "jtag_inst2_TDO"
+                    },
+                    {
+                        "name": "la0_clk",
+                        "net": "i_mipi_rx_pclk",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe0",
+                        "net": "w_mipi_rx_vs",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe1",
+                        "net": "w_mipi_rx_hs",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[0]",
+                        "net": "w_mipi_rx_dt[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[1]",
+                        "net": "w_mipi_rx_dt[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[2]",
+                        "net": "w_mipi_rx_dt[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[3]",
+                        "net": "w_mipi_rx_dt[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[4]",
+                        "net": "w_mipi_rx_dt[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe2[5]",
+                        "net": "w_mipi_rx_dt[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe3",
+                        "net": "w_mipi_rx_de",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[0]",
+                        "net": "w_mipi_rx_data[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[1]",
+                        "net": "w_mipi_rx_data[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[2]",
+                        "net": "w_mipi_rx_data[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[3]",
+                        "net": "w_mipi_rx_data[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[4]",
+                        "net": "w_mipi_rx_data[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[5]",
+                        "net": "w_mipi_rx_data[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[6]",
+                        "net": "w_mipi_rx_data[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[7]",
+                        "net": "w_mipi_rx_data[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[8]",
+                        "net": "w_mipi_rx_data[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[9]",
+                        "net": "w_mipi_rx_data[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[10]",
+                        "net": "w_mipi_rx_data[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[11]",
+                        "net": "w_mipi_rx_data[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[12]",
+                        "net": "w_mipi_rx_data[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[13]",
+                        "net": "w_mipi_rx_data[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[14]",
+                        "net": "w_mipi_rx_data[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[15]",
+                        "net": "w_mipi_rx_data[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[16]",
+                        "net": "w_mipi_rx_data[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[17]",
+                        "net": "w_mipi_rx_data[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[18]",
+                        "net": "w_mipi_rx_data[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[19]",
+                        "net": "w_mipi_rx_data[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[20]",
+                        "net": "w_mipi_rx_data[20]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[21]",
+                        "net": "w_mipi_rx_data[21]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[22]",
+                        "net": "w_mipi_rx_data[22]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[23]",
+                        "net": "w_mipi_rx_data[23]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[24]",
+                        "net": "w_mipi_rx_data[24]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[25]",
+                        "net": "w_mipi_rx_data[25]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[26]",
+                        "net": "w_mipi_rx_data[26]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[27]",
+                        "net": "w_mipi_rx_data[27]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[28]",
+                        "net": "w_mipi_rx_data[28]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[29]",
+                        "net": "w_mipi_rx_data[29]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[30]",
+                        "net": "w_mipi_rx_data[30]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[31]",
+                        "net": "w_mipi_rx_data[31]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[32]",
+                        "net": "w_mipi_rx_data[32]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[33]",
+                        "net": "w_mipi_rx_data[33]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[34]",
+                        "net": "w_mipi_rx_data[34]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[35]",
+                        "net": "w_mipi_rx_data[35]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[36]",
+                        "net": "w_mipi_rx_data[36]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[37]",
+                        "net": "w_mipi_rx_data[37]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[38]",
+                        "net": "w_mipi_rx_data[38]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[39]",
+                        "net": "w_mipi_rx_data[39]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[40]",
+                        "net": "w_mipi_rx_data[40]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[41]",
+                        "net": "w_mipi_rx_data[41]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[42]",
+                        "net": "w_mipi_rx_data[42]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[43]",
+                        "net": "w_mipi_rx_data[43]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[44]",
+                        "net": "w_mipi_rx_data[44]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[45]",
+                        "net": "w_mipi_rx_data[45]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[46]",
+                        "net": "w_mipi_rx_data[46]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[47]",
+                        "net": "w_mipi_rx_data[47]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[48]",
+                        "net": "w_mipi_rx_data[48]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[49]",
+                        "net": "w_mipi_rx_data[49]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[50]",
+                        "net": "w_mipi_rx_data[50]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[51]",
+                        "net": "w_mipi_rx_data[51]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[52]",
+                        "net": "w_mipi_rx_data[52]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[53]",
+                        "net": "w_mipi_rx_data[53]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[54]",
+                        "net": "w_mipi_rx_data[54]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[55]",
+                        "net": "w_mipi_rx_data[55]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[56]",
+                        "net": "w_mipi_rx_data[56]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[57]",
+                        "net": "w_mipi_rx_data[57]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[58]",
+                        "net": "w_mipi_rx_data[58]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[59]",
+                        "net": "w_mipi_rx_data[59]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[60]",
+                        "net": "w_mipi_rx_data[60]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[61]",
+                        "net": "w_mipi_rx_data[61]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[62]",
+                        "net": "w_mipi_rx_data[62]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe4[63]",
+                        "net": "w_mipi_rx_data[63]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe5",
+                        "net": "cam_dma_wvalid",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe6",
+                        "net": "cam_dma_wready",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe7",
+                        "net": "cam_dma_wlast",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe8",
+                        "net": "cam_dma_init_done",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe9",
+                        "net": "cam_confdone",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe10",
+                        "net": "continuous_capture_frame",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[0]",
+                        "net": "frames_per_second[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[1]",
+                        "net": "frames_per_second[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[2]",
+                        "net": "frames_per_second[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[3]",
+                        "net": "frames_per_second[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[4]",
+                        "net": "frames_per_second[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[5]",
+                        "net": "frames_per_second[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[6]",
+                        "net": "frames_per_second[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[7]",
+                        "net": "frames_per_second[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[8]",
+                        "net": "frames_per_second[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[9]",
+                        "net": "frames_per_second[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[10]",
+                        "net": "frames_per_second[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[11]",
+                        "net": "frames_per_second[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[12]",
+                        "net": "frames_per_second[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[13]",
+                        "net": "frames_per_second[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[14]",
+                        "net": "frames_per_second[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[15]",
+                        "net": "frames_per_second[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[16]",
+                        "net": "frames_per_second[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[17]",
+                        "net": "frames_per_second[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[18]",
+                        "net": "frames_per_second[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[19]",
+                        "net": "frames_per_second[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[20]",
+                        "net": "frames_per_second[20]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[21]",
+                        "net": "frames_per_second[21]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[22]",
+                        "net": "frames_per_second[22]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[23]",
+                        "net": "frames_per_second[23]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[24]",
+                        "net": "frames_per_second[24]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[25]",
+                        "net": "frames_per_second[25]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[26]",
+                        "net": "frames_per_second[26]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[27]",
+                        "net": "frames_per_second[27]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[28]",
+                        "net": "frames_per_second[28]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[29]",
+                        "net": "frames_per_second[29]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[30]",
+                        "net": "frames_per_second[30]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe11[31]",
+                        "net": "frames_per_second[31]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe12",
+                        "net": "trigger_capture_frame",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[0]",
+                        "net": "i_cam_d0_HS_IN_0[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[1]",
+                        "net": "i_cam_d0_HS_IN_0[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[2]",
+                        "net": "i_cam_d0_HS_IN_0[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[3]",
+                        "net": "i_cam_d0_HS_IN_0[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[4]",
+                        "net": "i_cam_d0_HS_IN_0[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[5]",
+                        "net": "i_cam_d0_HS_IN_0[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[6]",
+                        "net": "i_cam_d0_HS_IN_0[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe13[7]",
+                        "net": "i_cam_d0_HS_IN_0[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe14",
+                        "net": "o_cam_d0_HS_ENA",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe15",
+                        "net": "o_cam_ck_HS_ENA",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe16",
+                        "net": "o_cam_d0_FIFO_RD",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe17",
+                        "net": "o_cam_ck_HS_TERM",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe18",
+                        "net": "o_cam_d1_FIFO_RD",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe19",
+                        "net": "o_cam_d1_RST",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe20",
+                        "net": "o_cam_d1_HS_TERM",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe21",
+                        "net": "o_cam_d0_HS_TERM",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe22",
+                        "net": "o_cam_d1_HS_ENA",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe23",
+                        "net": "o_cam_d0_RST",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe24",
+                        "net": "i_cam_d1_LP_N_IN",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe25",
+                        "net": "i_cam_d0_LP_P_IN",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe26",
+                        "net": "i_cam_ck_CLKOUT_0",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe27",
+                        "net": "i_cam_ck_LP_N_IN",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe28",
+                        "net": "i_cam_d0_FIFO_EMPTY",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe29",
+                        "net": "i_cam_d0_LP_N_IN",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe30",
+                        "net": "i_cam_d1_LP_P_IN",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe31",
+                        "net": "i_cam_d1_FIFO_EMPTY",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe32",
+                        "net": "i_cam_ck_LP_P_IN",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe33[0]",
+                        "net": "i_cam_d1_HS_IN_0[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe33[1]",
+                        "net": "i_cam_d1_HS_IN_0[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe33[2]",
+                        "net": "i_cam_d1_HS_IN_0[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe33[3]",
+                        "net": "i_cam_d1_HS_IN_0[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe33[4]",
+                        "net": "i_cam_d1_HS_IN_0[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe33[5]",
+                        "net": "i_cam_d1_HS_IN_0[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe33[6]",
+                        "net": "i_cam_d1_HS_IN_0[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe33[7]",
+                        "net": "i_cam_d1_HS_IN_0[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe34",
+                        "net": "w_cam_ck_HS_ENA_0",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe35",
+                        "net": "w_cam_ck_HS_TERM_0",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe36",
+                        "net": "reset_pixel_n",
+                        "path": [
+                            "u_csi2_rx_cam"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe37",
+                        "net": "reset_byte_HS_n",
+                        "path": [
+                            "u_csi2_rx_cam"
+                        ]
+                    },
+                    {
+                        "name": "la0_probe38[0]",
+                        "net": "dma_interrupts[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe38[1]",
+                        "net": "dma_interrupts[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe38[2]",
+                        "net": "dma_interrupts[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la0_probe38[3]",
+                        "net": "dma_interrupts[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_clk",
+                        "net": "clk_pixel_2x",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe0",
+                        "net": "hdmi_de",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe1",
+                        "net": "hdmi_hs",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe2",
+                        "net": "hdmi_vs",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[0]",
+                        "net": "display_dma_rdata[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[1]",
+                        "net": "display_dma_rdata[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[2]",
+                        "net": "display_dma_rdata[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[3]",
+                        "net": "display_dma_rdata[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[4]",
+                        "net": "display_dma_rdata[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[5]",
+                        "net": "display_dma_rdata[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[6]",
+                        "net": "display_dma_rdata[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[7]",
+                        "net": "display_dma_rdata[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[8]",
+                        "net": "display_dma_rdata[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[9]",
+                        "net": "display_dma_rdata[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[10]",
+                        "net": "display_dma_rdata[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[11]",
+                        "net": "display_dma_rdata[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[12]",
+                        "net": "display_dma_rdata[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[13]",
+                        "net": "display_dma_rdata[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[14]",
+                        "net": "display_dma_rdata[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[15]",
+                        "net": "display_dma_rdata[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[16]",
+                        "net": "display_dma_rdata[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[17]",
+                        "net": "display_dma_rdata[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[18]",
+                        "net": "display_dma_rdata[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[19]",
+                        "net": "display_dma_rdata[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[20]",
+                        "net": "display_dma_rdata[20]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[21]",
+                        "net": "display_dma_rdata[21]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[22]",
+                        "net": "display_dma_rdata[22]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[23]",
+                        "net": "display_dma_rdata[23]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[24]",
+                        "net": "display_dma_rdata[24]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[25]",
+                        "net": "display_dma_rdata[25]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[26]",
+                        "net": "display_dma_rdata[26]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[27]",
+                        "net": "display_dma_rdata[27]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[28]",
+                        "net": "display_dma_rdata[28]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[29]",
+                        "net": "display_dma_rdata[29]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[30]",
+                        "net": "display_dma_rdata[30]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[31]",
+                        "net": "display_dma_rdata[31]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[32]",
+                        "net": "display_dma_rdata[32]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[33]",
+                        "net": "display_dma_rdata[33]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[34]",
+                        "net": "display_dma_rdata[34]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[35]",
+                        "net": "display_dma_rdata[35]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[36]",
+                        "net": "display_dma_rdata[36]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[37]",
+                        "net": "display_dma_rdata[37]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[38]",
+                        "net": "display_dma_rdata[38]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[39]",
+                        "net": "display_dma_rdata[39]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[40]",
+                        "net": "display_dma_rdata[40]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[41]",
+                        "net": "display_dma_rdata[41]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[42]",
+                        "net": "display_dma_rdata[42]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[43]",
+                        "net": "display_dma_rdata[43]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[44]",
+                        "net": "display_dma_rdata[44]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[45]",
+                        "net": "display_dma_rdata[45]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[46]",
+                        "net": "display_dma_rdata[46]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[47]",
+                        "net": "display_dma_rdata[47]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[48]",
+                        "net": "display_dma_rdata[48]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[49]",
+                        "net": "display_dma_rdata[49]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[50]",
+                        "net": "display_dma_rdata[50]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[51]",
+                        "net": "display_dma_rdata[51]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[52]",
+                        "net": "display_dma_rdata[52]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[53]",
+                        "net": "display_dma_rdata[53]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[54]",
+                        "net": "display_dma_rdata[54]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[55]",
+                        "net": "display_dma_rdata[55]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[56]",
+                        "net": "display_dma_rdata[56]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[57]",
+                        "net": "display_dma_rdata[57]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[58]",
+                        "net": "display_dma_rdata[58]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[59]",
+                        "net": "display_dma_rdata[59]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[60]",
+                        "net": "display_dma_rdata[60]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[61]",
+                        "net": "display_dma_rdata[61]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[62]",
+                        "net": "display_dma_rdata[62]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe3[63]",
+                        "net": "display_dma_rdata[63]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe4",
+                        "net": "display_dma_rready",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe5[0]",
+                        "net": "display_dma_rkeep[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe5[1]",
+                        "net": "display_dma_rkeep[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe5[2]",
+                        "net": "display_dma_rkeep[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe5[3]",
+                        "net": "display_dma_rkeep[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe5[4]",
+                        "net": "display_dma_rkeep[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe5[5]",
+                        "net": "display_dma_rkeep[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe5[6]",
+                        "net": "display_dma_rkeep[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe5[7]",
+                        "net": "display_dma_rkeep[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe6",
+                        "net": "display_dma_rvalid",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe7",
+                        "net": "boundcrop_de",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe8",
+                        "net": "boundcrop_hs",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe9",
+                        "net": "boundcrop_vs",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[0]",
+                        "net": "boundcrop_data[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[1]",
+                        "net": "boundcrop_data[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[2]",
+                        "net": "boundcrop_data[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[3]",
+                        "net": "boundcrop_data[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[4]",
+                        "net": "boundcrop_data[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[5]",
+                        "net": "boundcrop_data[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[6]",
+                        "net": "boundcrop_data[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[7]",
+                        "net": "boundcrop_data[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[8]",
+                        "net": "boundcrop_data[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[9]",
+                        "net": "boundcrop_data[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[10]",
+                        "net": "boundcrop_data[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[11]",
+                        "net": "boundcrop_data[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[12]",
+                        "net": "boundcrop_data[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[13]",
+                        "net": "boundcrop_data[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[14]",
+                        "net": "boundcrop_data[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[15]",
+                        "net": "boundcrop_data[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[16]",
+                        "net": "boundcrop_data[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[17]",
+                        "net": "boundcrop_data[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[18]",
+                        "net": "boundcrop_data[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[19]",
+                        "net": "boundcrop_data[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[20]",
+                        "net": "boundcrop_data[20]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[21]",
+                        "net": "boundcrop_data[21]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[22]",
+                        "net": "boundcrop_data[22]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe10[23]",
+                        "net": "boundcrop_data[23]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[0]",
+                        "net": "hdmi_data[0]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[1]",
+                        "net": "hdmi_data[1]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[2]",
+                        "net": "hdmi_data[2]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[3]",
+                        "net": "hdmi_data[3]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[4]",
+                        "net": "hdmi_data[4]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[5]",
+                        "net": "hdmi_data[5]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[6]",
+                        "net": "hdmi_data[6]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[7]",
+                        "net": "hdmi_data[7]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[8]",
+                        "net": "hdmi_data[8]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[9]",
+                        "net": "hdmi_data[9]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[10]",
+                        "net": "hdmi_data[10]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[11]",
+                        "net": "hdmi_data[11]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[12]",
+                        "net": "hdmi_data[12]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[13]",
+                        "net": "hdmi_data[13]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[14]",
+                        "net": "hdmi_data[14]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[15]",
+                        "net": "hdmi_data[15]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[16]",
+                        "net": "hdmi_data[16]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[17]",
+                        "net": "hdmi_data[17]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[18]",
+                        "net": "hdmi_data[18]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[19]",
+                        "net": "hdmi_data[19]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[20]",
+                        "net": "hdmi_data[20]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[21]",
+                        "net": "hdmi_data[21]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[22]",
+                        "net": "hdmi_data[22]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe11[23]",
+                        "net": "hdmi_data[23]",
+                        "path": []
+                    },
+                    {
+                        "name": "la1_probe12[0]",
+                        "net": "wvDisplayDmaRed[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[1]",
+                        "net": "wvDisplayDmaRed[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[2]",
+                        "net": "wvDisplayDmaRed[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[3]",
+                        "net": "wvDisplayDmaRed[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[4]",
+                        "net": "wvDisplayDmaRed[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[5]",
+                        "net": "wvDisplayDmaRed[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[6]",
+                        "net": "wvDisplayDmaRed[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[7]",
+                        "net": "wvDisplayDmaRed[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[8]",
+                        "net": "wvDisplayDmaRed[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[9]",
+                        "net": "wvDisplayDmaRed[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[10]",
+                        "net": "wvDisplayDmaRed[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[11]",
+                        "net": "wvDisplayDmaRed[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[12]",
+                        "net": "wvDisplayDmaRed[12]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[13]",
+                        "net": "wvDisplayDmaRed[13]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[14]",
+                        "net": "wvDisplayDmaRed[14]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe12[15]",
+                        "net": "wvDisplayDmaRed[15]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[0]",
+                        "net": "wvDisplayDmaBlue[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[1]",
+                        "net": "wvDisplayDmaBlue[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[2]",
+                        "net": "wvDisplayDmaBlue[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[3]",
+                        "net": "wvDisplayDmaBlue[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[4]",
+                        "net": "wvDisplayDmaBlue[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[5]",
+                        "net": "wvDisplayDmaBlue[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[6]",
+                        "net": "wvDisplayDmaBlue[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[7]",
+                        "net": "wvDisplayDmaBlue[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[8]",
+                        "net": "wvDisplayDmaBlue[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[9]",
+                        "net": "wvDisplayDmaBlue[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[10]",
+                        "net": "wvDisplayDmaBlue[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[11]",
+                        "net": "wvDisplayDmaBlue[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[12]",
+                        "net": "wvDisplayDmaBlue[12]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[13]",
+                        "net": "wvDisplayDmaBlue[13]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[14]",
+                        "net": "wvDisplayDmaBlue[14]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe13[15]",
+                        "net": "wvDisplayDmaBlue[15]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[0]",
+                        "net": "wvDisplayDmaGreen[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[1]",
+                        "net": "wvDisplayDmaGreen[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[2]",
+                        "net": "wvDisplayDmaGreen[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[3]",
+                        "net": "wvDisplayDmaGreen[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[4]",
+                        "net": "wvDisplayDmaGreen[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[5]",
+                        "net": "wvDisplayDmaGreen[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[6]",
+                        "net": "wvDisplayDmaGreen[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[7]",
+                        "net": "wvDisplayDmaGreen[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[8]",
+                        "net": "wvDisplayDmaGreen[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[9]",
+                        "net": "wvDisplayDmaGreen[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[10]",
+                        "net": "wvDisplayDmaGreen[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[11]",
+                        "net": "wvDisplayDmaGreen[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[12]",
+                        "net": "wvDisplayDmaGreen[12]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[13]",
+                        "net": "wvDisplayDmaGreen[13]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[14]",
+                        "net": "wvDisplayDmaGreen[14]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe14[15]",
+                        "net": "wvDisplayDmaGreen[15]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[0]",
+                        "net": "wv14VgaGenOutX[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[1]",
+                        "net": "wv14VgaGenOutX[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[2]",
+                        "net": "wv14VgaGenOutX[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[3]",
+                        "net": "wv14VgaGenOutX[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[4]",
+                        "net": "wv14VgaGenOutX[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[5]",
+                        "net": "wv14VgaGenOutX[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[6]",
+                        "net": "wv14VgaGenOutX[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[7]",
+                        "net": "wv14VgaGenOutX[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[8]",
+                        "net": "wv14VgaGenOutX[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[9]",
+                        "net": "wv14VgaGenOutX[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[10]",
+                        "net": "wv14VgaGenOutX[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[11]",
+                        "net": "wv14VgaGenOutX[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[12]",
+                        "net": "wv14VgaGenOutX[12]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe15[13]",
+                        "net": "wv14VgaGenOutX[13]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[0]",
+                        "net": "wv12VgaGenOutY[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[1]",
+                        "net": "wv12VgaGenOutY[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[2]",
+                        "net": "wv12VgaGenOutY[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[3]",
+                        "net": "wv12VgaGenOutY[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[4]",
+                        "net": "wv12VgaGenOutY[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[5]",
+                        "net": "wv12VgaGenOutY[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[6]",
+                        "net": "wv12VgaGenOutY[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[7]",
+                        "net": "wv12VgaGenOutY[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[8]",
+                        "net": "wv12VgaGenOutY[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[9]",
+                        "net": "wv12VgaGenOutY[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[10]",
+                        "net": "wv12VgaGenOutY[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe16[11]",
+                        "net": "wv12VgaGenOutY[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe17",
+                        "net": "rLatchStartFrame_d1",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[0]",
+                        "net": "rv64OffetDisplay[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[1]",
+                        "net": "rv64OffetDisplay[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[2]",
+                        "net": "rv64OffetDisplay[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[3]",
+                        "net": "rv64OffetDisplay[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[4]",
+                        "net": "rv64OffetDisplay[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[5]",
+                        "net": "rv64OffetDisplay[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[6]",
+                        "net": "rv64OffetDisplay[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[7]",
+                        "net": "rv64OffetDisplay[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[8]",
+                        "net": "rv64OffetDisplay[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[9]",
+                        "net": "rv64OffetDisplay[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[10]",
+                        "net": "rv64OffetDisplay[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[11]",
+                        "net": "rv64OffetDisplay[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[12]",
+                        "net": "rv64OffetDisplay[12]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[13]",
+                        "net": "rv64OffetDisplay[13]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[14]",
+                        "net": "rv64OffetDisplay[14]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[15]",
+                        "net": "rv64OffetDisplay[15]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[16]",
+                        "net": "rv64OffetDisplay[16]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[17]",
+                        "net": "rv64OffetDisplay[17]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[18]",
+                        "net": "rv64OffetDisplay[18]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[19]",
+                        "net": "rv64OffetDisplay[19]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[20]",
+                        "net": "rv64OffetDisplay[20]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[21]",
+                        "net": "rv64OffetDisplay[21]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[22]",
+                        "net": "rv64OffetDisplay[22]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[23]",
+                        "net": "rv64OffetDisplay[23]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[24]",
+                        "net": "rv64OffetDisplay[24]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[25]",
+                        "net": "rv64OffetDisplay[25]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[26]",
+                        "net": "rv64OffetDisplay[26]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[27]",
+                        "net": "rv64OffetDisplay[27]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[28]",
+                        "net": "rv64OffetDisplay[28]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[29]",
+                        "net": "rv64OffetDisplay[29]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[30]",
+                        "net": "rv64OffetDisplay[30]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[31]",
+                        "net": "rv64OffetDisplay[31]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[32]",
+                        "net": "rv64OffetDisplay[32]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[33]",
+                        "net": "rv64OffetDisplay[33]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[34]",
+                        "net": "rv64OffetDisplay[34]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[35]",
+                        "net": "rv64OffetDisplay[35]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[36]",
+                        "net": "rv64OffetDisplay[36]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[37]",
+                        "net": "rv64OffetDisplay[37]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[38]",
+                        "net": "rv64OffetDisplay[38]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[39]",
+                        "net": "rv64OffetDisplay[39]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[40]",
+                        "net": "rv64OffetDisplay[40]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[41]",
+                        "net": "rv64OffetDisplay[41]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[42]",
+                        "net": "rv64OffetDisplay[42]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[43]",
+                        "net": "rv64OffetDisplay[43]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[44]",
+                        "net": "rv64OffetDisplay[44]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[45]",
+                        "net": "rv64OffetDisplay[45]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[46]",
+                        "net": "rv64OffetDisplay[46]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[47]",
+                        "net": "rv64OffetDisplay[47]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[48]",
+                        "net": "rv64OffetDisplay[48]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[49]",
+                        "net": "rv64OffetDisplay[49]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[50]",
+                        "net": "rv64OffetDisplay[50]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[51]",
+                        "net": "rv64OffetDisplay[51]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[52]",
+                        "net": "rv64OffetDisplay[52]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[53]",
+                        "net": "rv64OffetDisplay[53]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[54]",
+                        "net": "rv64OffetDisplay[54]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[55]",
+                        "net": "rv64OffetDisplay[55]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[56]",
+                        "net": "rv64OffetDisplay[56]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[57]",
+                        "net": "rv64OffetDisplay[57]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[58]",
+                        "net": "rv64OffetDisplay[58]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[59]",
+                        "net": "rv64OffetDisplay[59]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[60]",
+                        "net": "rv64OffetDisplay[60]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[61]",
+                        "net": "rv64OffetDisplay[61]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[62]",
+                        "net": "rv64OffetDisplay[62]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe18[63]",
+                        "net": "rv64OffetDisplay[63]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[0]",
+                        "net": "wvDisplayDataSel[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[1]",
+                        "net": "wvDisplayDataSel[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[2]",
+                        "net": "wvDisplayDataSel[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[3]",
+                        "net": "wvDisplayDataSel[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[4]",
+                        "net": "wvDisplayDataSel[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[5]",
+                        "net": "wvDisplayDataSel[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[6]",
+                        "net": "wvDisplayDataSel[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[7]",
+                        "net": "wvDisplayDataSel[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[8]",
+                        "net": "wvDisplayDataSel[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[9]",
+                        "net": "wvDisplayDataSel[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[10]",
+                        "net": "wvDisplayDataSel[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[11]",
+                        "net": "wvDisplayDataSel[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[12]",
+                        "net": "wvDisplayDataSel[12]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[13]",
+                        "net": "wvDisplayDataSel[13]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[14]",
+                        "net": "wvDisplayDataSel[14]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[15]",
+                        "net": "wvDisplayDataSel[15]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[16]",
+                        "net": "wvDisplayDataSel[16]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[17]",
+                        "net": "wvDisplayDataSel[17]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[18]",
+                        "net": "wvDisplayDataSel[18]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[19]",
+                        "net": "wvDisplayDataSel[19]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[20]",
+                        "net": "wvDisplayDataSel[20]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[21]",
+                        "net": "wvDisplayDataSel[21]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[22]",
+                        "net": "wvDisplayDataSel[22]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[23]",
+                        "net": "wvDisplayDataSel[23]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[24]",
+                        "net": "wvDisplayDataSel[24]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[25]",
+                        "net": "wvDisplayDataSel[25]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[26]",
+                        "net": "wvDisplayDataSel[26]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[27]",
+                        "net": "wvDisplayDataSel[27]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[28]",
+                        "net": "wvDisplayDataSel[28]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[29]",
+                        "net": "wvDisplayDataSel[29]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[30]",
+                        "net": "wvDisplayDataSel[30]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[31]",
+                        "net": "wvDisplayDataSel[31]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[32]",
+                        "net": "wvDisplayDataSel[32]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[33]",
+                        "net": "wvDisplayDataSel[33]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[34]",
+                        "net": "wvDisplayDataSel[34]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[35]",
+                        "net": "wvDisplayDataSel[35]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[36]",
+                        "net": "wvDisplayDataSel[36]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[37]",
+                        "net": "wvDisplayDataSel[37]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[38]",
+                        "net": "wvDisplayDataSel[38]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[39]",
+                        "net": "wvDisplayDataSel[39]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[40]",
+                        "net": "wvDisplayDataSel[40]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[41]",
+                        "net": "wvDisplayDataSel[41]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[42]",
+                        "net": "wvDisplayDataSel[42]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[43]",
+                        "net": "wvDisplayDataSel[43]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[44]",
+                        "net": "wvDisplayDataSel[44]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[45]",
+                        "net": "wvDisplayDataSel[45]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[46]",
+                        "net": "wvDisplayDataSel[46]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[47]",
+                        "net": "wvDisplayDataSel[47]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[48]",
+                        "net": "wvDisplayDataSel[48]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[49]",
+                        "net": "wvDisplayDataSel[49]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[50]",
+                        "net": "wvDisplayDataSel[50]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[51]",
+                        "net": "wvDisplayDataSel[51]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[52]",
+                        "net": "wvDisplayDataSel[52]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[53]",
+                        "net": "wvDisplayDataSel[53]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[54]",
+                        "net": "wvDisplayDataSel[54]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[55]",
+                        "net": "wvDisplayDataSel[55]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[56]",
+                        "net": "wvDisplayDataSel[56]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[57]",
+                        "net": "wvDisplayDataSel[57]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[58]",
+                        "net": "wvDisplayDataSel[58]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[59]",
+                        "net": "wvDisplayDataSel[59]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[60]",
+                        "net": "wvDisplayDataSel[60]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[61]",
+                        "net": "wvDisplayDataSel[61]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[62]",
+                        "net": "wvDisplayDataSel[62]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe19[63]",
+                        "net": "wvDisplayDataSel[63]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[0]",
+                        "net": "wvDisplayDmaRdData[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[1]",
+                        "net": "wvDisplayDmaRdData[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[2]",
+                        "net": "wvDisplayDmaRdData[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[3]",
+                        "net": "wvDisplayDmaRdData[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[4]",
+                        "net": "wvDisplayDmaRdData[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[5]",
+                        "net": "wvDisplayDmaRdData[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[6]",
+                        "net": "wvDisplayDmaRdData[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[7]",
+                        "net": "wvDisplayDmaRdData[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[8]",
+                        "net": "wvDisplayDmaRdData[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[9]",
+                        "net": "wvDisplayDmaRdData[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[10]",
+                        "net": "wvDisplayDmaRdData[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[11]",
+                        "net": "wvDisplayDmaRdData[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[12]",
+                        "net": "wvDisplayDmaRdData[12]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[13]",
+                        "net": "wvDisplayDmaRdData[13]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[14]",
+                        "net": "wvDisplayDmaRdData[14]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[15]",
+                        "net": "wvDisplayDmaRdData[15]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[16]",
+                        "net": "wvDisplayDmaRdData[16]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[17]",
+                        "net": "wvDisplayDmaRdData[17]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[18]",
+                        "net": "wvDisplayDmaRdData[18]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[19]",
+                        "net": "wvDisplayDmaRdData[19]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[20]",
+                        "net": "wvDisplayDmaRdData[20]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[21]",
+                        "net": "wvDisplayDmaRdData[21]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[22]",
+                        "net": "wvDisplayDmaRdData[22]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[23]",
+                        "net": "wvDisplayDmaRdData[23]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[24]",
+                        "net": "wvDisplayDmaRdData[24]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[25]",
+                        "net": "wvDisplayDmaRdData[25]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[26]",
+                        "net": "wvDisplayDmaRdData[26]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[27]",
+                        "net": "wvDisplayDmaRdData[27]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[28]",
+                        "net": "wvDisplayDmaRdData[28]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[29]",
+                        "net": "wvDisplayDmaRdData[29]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[30]",
+                        "net": "wvDisplayDmaRdData[30]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[31]",
+                        "net": "wvDisplayDmaRdData[31]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[32]",
+                        "net": "wvDisplayDmaRdData[32]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[33]",
+                        "net": "wvDisplayDmaRdData[33]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[34]",
+                        "net": "wvDisplayDmaRdData[34]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[35]",
+                        "net": "wvDisplayDmaRdData[35]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[36]",
+                        "net": "wvDisplayDmaRdData[36]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[37]",
+                        "net": "wvDisplayDmaRdData[37]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[38]",
+                        "net": "wvDisplayDmaRdData[38]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[39]",
+                        "net": "wvDisplayDmaRdData[39]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[40]",
+                        "net": "wvDisplayDmaRdData[40]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[41]",
+                        "net": "wvDisplayDmaRdData[41]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[42]",
+                        "net": "wvDisplayDmaRdData[42]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[43]",
+                        "net": "wvDisplayDmaRdData[43]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[44]",
+                        "net": "wvDisplayDmaRdData[44]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[45]",
+                        "net": "wvDisplayDmaRdData[45]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[46]",
+                        "net": "wvDisplayDmaRdData[46]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[47]",
+                        "net": "wvDisplayDmaRdData[47]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[48]",
+                        "net": "wvDisplayDmaRdData[48]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[49]",
+                        "net": "wvDisplayDmaRdData[49]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[50]",
+                        "net": "wvDisplayDmaRdData[50]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[51]",
+                        "net": "wvDisplayDmaRdData[51]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[52]",
+                        "net": "wvDisplayDmaRdData[52]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[53]",
+                        "net": "wvDisplayDmaRdData[53]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[54]",
+                        "net": "wvDisplayDmaRdData[54]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[55]",
+                        "net": "wvDisplayDmaRdData[55]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[56]",
+                        "net": "wvDisplayDmaRdData[56]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[57]",
+                        "net": "wvDisplayDmaRdData[57]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[58]",
+                        "net": "wvDisplayDmaRdData[58]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[59]",
+                        "net": "wvDisplayDmaRdData[59]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[60]",
+                        "net": "wvDisplayDmaRdData[60]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[61]",
+                        "net": "wvDisplayDmaRdData[61]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[62]",
+                        "net": "wvDisplayDmaRdData[62]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe20[63]",
+                        "net": "wvDisplayDmaRdData[63]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe21",
+                        "net": "rDmaFifoLatchPartialEmpty",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe22",
+                        "net": "rLatchStartFrame",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe23",
+                        "net": "wVgaGenHs",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe24",
+                        "net": "wVgaGenVs",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe25",
+                        "net": "wVgaGenDe",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[0]",
+                        "net": "wvDisplayDmaFifoCount[0]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[1]",
+                        "net": "wvDisplayDmaFifoCount[1]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[2]",
+                        "net": "wvDisplayDmaFifoCount[2]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[3]",
+                        "net": "wvDisplayDmaFifoCount[3]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[4]",
+                        "net": "wvDisplayDmaFifoCount[4]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[5]",
+                        "net": "wvDisplayDmaFifoCount[5]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[6]",
+                        "net": "wvDisplayDmaFifoCount[6]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[7]",
+                        "net": "wvDisplayDmaFifoCount[7]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[8]",
+                        "net": "wvDisplayDmaFifoCount[8]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[9]",
+                        "net": "wvDisplayDmaFifoCount[9]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[10]",
+                        "net": "wvDisplayDmaFifoCount[10]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    },
+                    {
+                        "name": "la1_probe26[11]",
+                        "net": "wvDisplayDmaFifoCount[11]",
+                        "path": [
+                            "inst_display_hdmi_rgb"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "vdbs": [
+        {
+            "file": "debug_top.post.vdb",
+            "instance": "edb_top_inst"
+        }
+    ],
+    "session": {
+        "wizard": {
+            "data_depth": 1024,
+            "capture_control": false,
+            "selected_nets": [
+                {
+                    "name": "w_mipi_rx_vs",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "w_mipi_rx_hs",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "w_mipi_rx_dt",
+                    "width": 6,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 5,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_mipi_rx_de",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "w_mipi_rx_data",
+                    "width": 64,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 63,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "cam_dma_wvalid",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "cam_dma_wready",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "cam_dma_wlast",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "cam_dma_init_done",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "cam_confdone",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "continuous_capture_frame",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "frames_per_second",
+                    "width": 32,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 31,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "trigger_capture_frame",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_d0_HS_IN_0",
+                    "width": 8,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "o_cam_d0_HS_ENA",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_ck_HS_ENA",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_d0_FIFO_RD",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_ck_HS_TERM",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_d1_FIFO_RD",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_d1_RST",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_d1_HS_TERM",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_d0_HS_TERM",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_d1_HS_ENA",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "o_cam_d0_RST",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_d1_LP_N_IN",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_d0_LP_P_IN",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_ck_CLKOUT_0",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_ck_LP_N_IN",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_d0_FIFO_EMPTY",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_d0_LP_N_IN",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_d1_LP_P_IN",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_d1_FIFO_EMPTY",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_ck_LP_P_IN",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "i_cam_d1_HS_IN_0",
+                    "width": 8,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "w_cam_ck_HS_ENA_0",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "w_cam_ck_HS_TERM_0",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "reset_pixel_n",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_csi2_rx_cam"
+                    ]
+                },
+                {
+                    "name": "reset_byte_HS_n",
+                    "width": 1,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "u_csi2_rx_cam"
+                    ]
+                },
+                {
+                    "name": "dma_interrupts",
+                    "width": 4,
+                    "clk_domain": "i_mipi_rx_pclk",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 3,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "hdmi_de",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "hdmi_hs",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "hdmi_vs",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "display_dma_rdata",
+                    "width": 64,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 63,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "display_dma_rready",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "display_dma_rkeep",
+                    "width": 8,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 7,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "display_dma_rvalid",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "boundcrop_de",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "boundcrop_hs",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "boundcrop_vs",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": []
+                },
+                {
+                    "name": "boundcrop_data",
+                    "width": 24,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 23,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "hdmi_data",
+                    "width": 24,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [],
+                    "net_idx_left": 23,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "wvDisplayDmaRed",
+                    "width": 16,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 15,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "wvDisplayDmaBlue",
+                    "width": 16,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 15,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "wvDisplayDmaGreen",
+                    "width": 16,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 15,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "wv14VgaGenOutX",
+                    "width": 14,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 13,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "wv12VgaGenOutY",
+                    "width": 12,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 11,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "rLatchStartFrame_d1",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ]
+                },
+                {
+                    "name": "rv64OffetDisplay",
+                    "width": 64,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 63,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "wvDisplayDataSel",
+                    "width": 64,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 63,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "wvDisplayDmaRdData",
+                    "width": 64,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA ONLY",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 63,
+                    "net_idx_right": 0
+                },
+                {
+                    "name": "rDmaFifoLatchPartialEmpty",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ]
+                },
+                {
+                    "name": "rLatchStartFrame",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ]
+                },
+                {
+                    "name": "wVgaGenHs",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ]
+                },
+                {
+                    "name": "wVgaGenVs",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ]
+                },
+                {
+                    "name": "wVgaGenDe",
+                    "width": 1,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ]
+                },
+                {
+                    "name": "wvDisplayDmaFifoCount",
+                    "width": 12,
+                    "clk_domain": "clk_pixel_2x",
+                    "selected_probe_type": "DATA AND TRIGGER",
+                    "child": [],
+                    "path": [
+                        "inst_display_hdmi_rgb"
+                    ],
+                    "net_idx_left": 11,
+                    "net_idx_right": 0
+                }
+            ],
+            "top_module": "tinyml_soc_top",
+            "src": "elaborate",
+            "jtag_user": "USER2",
+            "input_pipeline": 1
+        }
+    }
+}

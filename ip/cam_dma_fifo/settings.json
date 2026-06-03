@@ -1,0 +1,75 @@
+{
+    "args": [
+        "-o",
+        "cam_dma_fifo",
+        "--base_path",
+        "D:\\efinity project\\Ti60F225_tinyml_vision\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "8.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "1",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "10",
+        "DATA_WIDTH": "48",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "256",
+        "PROGRAMMABLE_FULL": "\"NONE\"",
+        "PFN_INTERNAL": "256",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "0",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0",
+        "RAM_STYLE": "\"block_ram\"",
+        "OVERFLOW_PROTECT": "1",
+        "UNDERFLOW_PROTECT": "1"
+    },
+    "output": {
+        "external_source_source": [
+            "cam_dma_fifo\\cam_dma_fifo_tmpl.vhd",
+            "cam_dma_fifo\\cam_dma_fifo.sv",
+            "cam_dma_fifo\\cam_dma_fifo_tmpl.sv",
+            "cam_dma_fifo\\cam_dma_fifo_define.svh"
+        ],
+        "external_example_example": [
+            "cam_dma_fifo\\T20F256_devkit\\fifo_demo_top.v",
+            "cam_dma_fifo\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "cam_dma_fifo\\T20F256_devkit\\efx_symmetric_width_fifo_top.sv",
+            "cam_dma_fifo\\T20F256_devkit\\cam_dma_fifo.sv",
+            "cam_dma_fifo\\T20F256_devkit\\cam_dma_fifo_define.svh",
+            "cam_dma_fifo\\T20F256_devkit\\fifo_demo.peri.xml",
+            "cam_dma_fifo\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "cam_dma_fifo\\Ti60F225_devkit\\fifo_demo_top.v",
+            "cam_dma_fifo\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "cam_dma_fifo\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.sv",
+            "cam_dma_fifo\\Ti60F225_devkit\\cam_dma_fifo.sv",
+            "cam_dma_fifo\\Ti60F225_devkit\\cam_dma_fifo_define.svh",
+            "cam_dma_fifo\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "cam_dma_fifo\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "cam_dma_fifo\\Testbench\\fifo_tb.sv",
+            "cam_dma_fifo\\Testbench\\xrun.sh",
+            "cam_dma_fifo\\Testbench\\msim.sh",
+            "cam_dma_fifo\\Testbench\\flist",
+            "cam_dma_fifo\\Testbench\\modelsim.do",
+            "cam_dma_fifo\\Testbench\\cam_dma_fifo.sv",
+            "cam_dma_fifo\\Testbench\\cam_dma_fifo_define.svh"
+        ]
+    },
+    "ooc_synthesis": {},
+    "sw_version": "2025.1.110.5.9",
+    "generated_date": "2026-05-22T17:24:58.694497+00:00"
+}

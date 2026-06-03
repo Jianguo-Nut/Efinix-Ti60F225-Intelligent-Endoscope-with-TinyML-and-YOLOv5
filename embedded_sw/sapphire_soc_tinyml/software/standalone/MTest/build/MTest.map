@@ -1,0 +1,280 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+                              build/obj_files/start.o (__libc_init_array)
+d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+                              build/obj_files/MTest.o (memset)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+ .group         0x0000000000000000        0xc build/obj_files/MTest.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x00000000f9000000 0x0000000000004000 axwl !r
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/obj_files/MTest.o
+LOAD build/obj_files/start.o
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+                0x0000000000000100                __stack_size = DEFINED (__stack_size)?__stack_size:0x100
+
+.init           0x00000000f9000000       0x60
+ *(SORT_NONE(.init))
+ .init          0x00000000f9000000       0x60 build/obj_files/start.o
+                0x00000000f9000000                _start
+                0x00000000f900005c                _init
+
+.text           0x00000000f9000060     0x15a4
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ *(.text .text.*)
+ .text          0x00000000f9000060     0x1434 build/obj_files/MTest.o
+                0x00000000f900112c                test
+                0x00000000f900126c                test32
+                0x00000000f90013c8                main
+ .text          0x00000000f9001494        0x0 build/obj_files/start.o
+ .text          0x00000000f9001494        0x0 d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000f9001494       0x94 d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+                0x00000000f9001494                __libc_init_array
+ .text          0x00000000f9001528       0xdc d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+                0x00000000f9001528                memset
+ *(.gnu.linkonce.t.*)
+ *(.note.gnu.build-id)
+
+.rela.dyn       0x00000000f9001604        0x0
+ .rela.init     0x00000000f9001604        0x0 build/obj_files/MTest.o
+ .rela.text.__libc_init_array
+                0x00000000f9001604        0x0 build/obj_files/MTest.o
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x00000000f9001604                . = ALIGN (0x4)
+
+.preinit_array  0x00000000f9001604        0x0
+                0x00000000f9001604                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x00000000f9001604                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00000000f9001604        0x0
+                0x00000000f9001604                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                0x00000000f9001604                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000000f9001604        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.lalign         0x00000000f9001604        0x0
+                0x00000000f9001604                PROVIDE (_data_lma = .)
+
+.dalign         0x00000000f9001604        0x0
+                0x00000000f9001604                PROVIDE (_data = .)
+
+.data           0x00000000f9001604      0x3de
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata        0x00000000f9001604      0x194 build/obj_files/MTest.o
+ .rodata.str1.4
+                0x00000000f9001798      0x240 build/obj_files/MTest.o
+                                        0x23e (size before relaxing)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data          0x00000000f90019d8        0x0 build/obj_files/MTest.o
+ .data          0x00000000f90019d8        0x0 build/obj_files/start.o
+ .data          0x00000000f90019d8        0x0 d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ .data          0x00000000f90019d8        0x0 d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+ *(.gnu.linkonce.d.*)
+                0x00000000f90019d8                . = ALIGN (0x8)
+ *fill*         0x00000000f90019d8        0x0 
+                0x00000000f90021c8                PROVIDE (__global_pointer$ = (. + 0x7f0))
+ *(.sdata .sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x00000000f90019d8                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x00000000f90019e2                . = (. + 0xa)
+ *fill*         0x00000000f90019d8        0xa 
+                0x00000000f90019e4                . = ALIGN (0x4)
+                0x00000000f90019e4                PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                [!provide]                        PROVIDE (_fbss = .)
+                0x00000000f90019e4                PROVIDE (__bss_start = .)
+
+.bss            0x00000000f90019e2        0x2
+ *(.sbss*)
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ .bss           0x00000000f90019e2        0x0 build/obj_files/MTest.o
+ .bss           0x00000000f90019e2        0x0 build/obj_files/start.o
+ .bss           0x00000000f90019e2        0x0 d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ .bss           0x00000000f90019e2        0x0 d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x00000000f90019e4                . = ALIGN (0x4)
+ *fill*         0x00000000f90019e2        0x2 
+                0x00000000f90019e8                . = ALIGN (0x8)
+                0x00000000f90019e8                PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x00000000f90019f0      0x100
+                [!provide]                        PROVIDE (_heap_end = .)
+                0x0000000000000100                . = __stack_size
+ *fill*         0x00000000f90019f0      0x100 
+                0x00000000f9001af0                PROVIDE (_sp = .)
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libm.a
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libg.a
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+END GROUP
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+LOAD d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libnosys.a
+END GROUP
+OUTPUT(build/MTest.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x1db2
+ .debug_info    0x0000000000000000     0x1d8c build/obj_files/MTest.o
+ .debug_info    0x0000000000001d8c       0x26 build/obj_files/start.o
+
+.debug_abbrev   0x0000000000000000      0x534
+ .debug_abbrev  0x0000000000000000      0x520 build/obj_files/MTest.o
+ .debug_abbrev  0x0000000000000520       0x14 build/obj_files/start.o
+
+.debug_loc      0x0000000000000000     0x15ac
+ .debug_loc     0x0000000000000000     0x15ac build/obj_files/MTest.o
+
+.debug_aranges  0x0000000000000000       0x40
+ .debug_aranges
+                0x0000000000000000       0x20 build/obj_files/MTest.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/obj_files/start.o
+
+.debug_ranges   0x0000000000000000       0x80
+ .debug_ranges  0x0000000000000000       0x80 build/obj_files/MTest.o
+
+.debug_macro    0x0000000000000000     0x1e19
+ .debug_macro   0x0000000000000000      0x1f7 build/obj_files/MTest.o
+ .debug_macro   0x00000000000001f7      0x760 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000957       0x22 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000979       0x8e build/obj_files/MTest.o
+ .debug_macro   0x0000000000000a07       0x51 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000a58      0x103 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000b5b       0x6a build/obj_files/MTest.o
+ .debug_macro   0x0000000000000bc5      0x1df build/obj_files/MTest.o
+ .debug_macro   0x0000000000000da4       0x58 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000dfc       0x19 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000e15       0x52 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000e67       0x34 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000e9b       0x34 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000ecf       0x16 build/obj_files/MTest.o
+ .debug_macro   0x0000000000000ee5      0x10e build/obj_files/MTest.o
+ .debug_macro   0x0000000000000ff3       0x8d build/obj_files/MTest.o
+ .debug_macro   0x0000000000001080       0x16 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001096       0x43 build/obj_files/MTest.o
+ .debug_macro   0x00000000000010d9       0x34 build/obj_files/MTest.o
+ .debug_macro   0x000000000000110d       0x10 build/obj_files/MTest.o
+ .debug_macro   0x000000000000111d       0x52 build/obj_files/MTest.o
+ .debug_macro   0x000000000000116f      0x182 build/obj_files/MTest.o
+ .debug_macro   0x00000000000012f1      0x339 build/obj_files/MTest.o
+ .debug_macro   0x000000000000162a       0x16 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001640       0x29 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001669      0x1a9 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001812       0x16 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001828       0x35 build/obj_files/MTest.o
+ .debug_macro   0x000000000000185d      0x15a build/obj_files/MTest.o
+ .debug_macro   0x00000000000019b7       0xc4 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001a7b       0x10 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001a8b       0x1c build/obj_files/MTest.o
+ .debug_macro   0x0000000000001aa7       0x16 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001abd      0x1b8 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001c75       0x16 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001c8b       0xce build/obj_files/MTest.o
+ .debug_macro   0x0000000000001d59       0x22 build/obj_files/MTest.o
+ .debug_macro   0x0000000000001d7b       0x9e build/obj_files/MTest.o
+
+.debug_line     0x0000000000000000     0x20a9
+ .debug_line    0x0000000000000000     0x1fef build/obj_files/MTest.o
+ .debug_line    0x0000000000001fef       0xba build/obj_files/start.o
+
+.debug_str      0x0000000000000000     0x8a07
+ .debug_str     0x0000000000000000     0x89e9 build/obj_files/MTest.o
+                                       0x8ce5 (size before relaxing)
+ .debug_str     0x00000000000089e9       0x1e build/obj_files/start.o
+                                         0x9b (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 build/obj_files/MTest.o
+                                         0x34 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x37c
+ .debug_frame   0x0000000000000000      0x340 build/obj_files/MTest.o
+ .debug_frame   0x0000000000000340       0x3c d:/programs/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)

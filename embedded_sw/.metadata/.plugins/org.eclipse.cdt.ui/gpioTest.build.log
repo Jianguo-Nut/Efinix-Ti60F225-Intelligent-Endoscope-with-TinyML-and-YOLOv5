@@ -1,0 +1,120 @@
+00:35:02 **** Incremental Build of configuration Default for project gpioTest ****
+make all 
+CC src/main.c
+In file included from ../driver/vexriscv.h:23,
+                 from ../../../bsp/efinix/EfxSapphireSoc/include/semihosting.h:28,
+                 from ../../../bsp/efinix/EfxSapphireSoc/include/bsp.h:11,
+                 from src/main.c:10:
+src/main.c: In function 'init':
+../driver/riscv.h:141:28: warning: declaration of '__v' shadows a previous local [-Wshadow]
+     register unsigned long __v;                \
+                            ^~~
+../driver/riscv.h:163:41: note: in definition of macro 'csr_write'
+     unsigned long __v = (unsigned long)(val);        \
+                                         ^~~
+src/main.c:45:24: note: in expansion of macro 'csr_read'
+     csr_write(mstatus, csr_read(mstatus) | MSTATUS_MPP | MSTATUS_MIE);
+                        ^~~~~~~~
+../driver/riscv.h:163:19: note: shadowed declaration is here
+     unsigned long __v = (unsigned long)(val);        \
+                   ^~~
+src/main.c:45:5: note: in expansion of macro 'csr_write'
+     csr_write(mstatus, csr_read(mstatus) | MSTATUS_MPP | MSTATUS_MIE);
+     ^~~~~~~~~
+In file included from src/main.c:14:
+At top level:
+../driver/plic.h:190:17: warning: 'plic_release' defined but not used [-Wunused-function]
+     static void plic_release(u32 plic, u32 target, u32 gateway){
+                 ^~~~~~~~~~~~
+../driver/plic.h:168:16: warning: 'plic_claim' defined but not used [-Wunused-function]
+     static u32 plic_claim(u32 plic, u32 target){
+                ^~~~~~~~~~
+../driver/plic.h:148:16: warning: 'plic_get_threshold' defined but not used [-Wunused-function]
+     static u32 plic_get_threshold(u32 plic, u32 target){
+                ^~~~~~~~~~~~~~~~~~
+../driver/plic.h:75:16: warning: 'plic_get_priority' defined but not used [-Wunused-function]
+     static u32 plic_get_priority(u32 plic, u32 gateway){
+                ^~~~~~~~~~~~~~~~~
+In file included from src/main.c:10:
+../../../bsp/efinix/EfxSapphireSoc/include/bsp.h:115:17: warning: 'bsp_init' defined but not used [-Wunused-function]
+     static void bsp_init()
+                 ^~~~~~~~
+In file included from ../../../bsp/efinix/EfxSapphireSoc/include/print.h:412,
+                 from ../../../bsp/efinix/EfxSapphireSoc/include/bsp.h:78,
+                 from src/main.c:10:
+../../../bsp/efinix/EfxSapphireSoc/include/print_full.h:1389:12: warning: 'fctprintf' defined but not used [-Wunused-function]
+ static int fctprintf(void (*out)(char character, void* arg), void* arg, const char* format, ...)
+            ^~~~~~~~~
+../../../bsp/efinix/EfxSapphireSoc/include/print_full.h:1365:12: warning: 'vsnprintf_' defined but not used [-Wunused-function]
+ static int vsnprintf_(char* buffer, size_t count, const char* format, va_list va)
+            ^~~~~~~~~~
+../../../bsp/efinix/EfxSapphireSoc/include/print_full.h:1339:12: warning: 'vprintf_' defined but not used [-Wunused-function]
+ static int vprintf_(const char* format, va_list va)
+            ^~~~~~~~
+../../../bsp/efinix/EfxSapphireSoc/include/print_full.h:1314:12: warning: 'snprintf_' defined but not used [-Wunused-function]
+ static int snprintf_(char* buffer, size_t count, const char* format, ...)
+            ^~~~~~~~~
+../../../bsp/efinix/EfxSapphireSoc/include/print_full.h:1286:12: warning: 'sprintf_' defined but not used [-Wunused-function]
+ static int sprintf_(char* buffer, const char* format, ...)
+            ^~~~~~~~
+../../../bsp/efinix/EfxSapphireSoc/include/print_full.h:1253:12: warning: 'printf_' defined but not used [-Wunused-function]
+ static int printf_(const char* format, ...)
+            ^~~~~~~
+In file included from ../../../bsp/efinix/EfxSapphireSoc/include/bsp.h:78,
+                 from src/main.c:10:
+../../../bsp/efinix/EfxSapphireSoc/include/print.h:332:17: warning: 'bsp_printf_X' defined but not used [-Wunused-function]
+     static void bsp_printf_X(int val)
+                 ^~~~~~~~~~~~
+../../../bsp/efinix/EfxSapphireSoc/include/print.h:305:17: warning: 'bsp_printf_x' defined but not used [-Wunused-function]
+     static void bsp_printf_x(int val)
+                 ^~~~~~~~~~~~
+../../../bsp/efinix/EfxSapphireSoc/include/print.h:277:17: warning: 'bsp_printf_d' defined but not used [-Wunused-function]
+     static void bsp_printf_d(int val)
+                 ^~~~~~~~~~~~
+../../../bsp/efinix/EfxSapphireSoc/include/print.h:259:17: warning: 'bsp_printf_s' defined but not used [-Wunused-function]
+     static void bsp_printf_s(char *p)
+                 ^~~~~~~~~~~~
+In file included from ../../../bsp/efinix/EfxSapphireSoc/include/bsp.h:11,
+                 from src/main.c:10:
+../../../bsp/efinix/EfxSapphireSoc/include/semihosting.h:157:13: warning: 'sh_readc' defined but not used [-Wunused-function]
+ static char sh_readc(void)
+             ^~~~~~~~
+In file included from ../../../bsp/efinix/EfxSapphireSoc/include/bsp.h:10,
+                 from src/main.c:10:
+../driver/clint.h:101:16: warning: 'clint_getTime' defined but not used [-Wunused-function]
+     static u64 clint_getTime(u32 p){
+                ^~~~~~~~~~~~~
+../driver/clint.h:80:17: warning: 'clint_setCmp' defined but not used [-Wunused-function]
+     static void clint_setCmp(u32 p, u64 cmp, u32 hart_id) {
+                 ^~~~~~~~~~~~
+In file included from ../../../bsp/efinix/EfxSapphireSoc/include/bsp.h:9,
+                 from src/main.c:10:
+../driver/uart.h:259:17: warning: 'uart_RX_NotemptyInterruptEna' defined but not used [-Wunused-function]
+     static void uart_RX_NotemptyInterruptEna(u32 reg, char Ena){
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../driver/uart.h:240:17: warning: 'uart_TX_emptyInterruptEna' defined but not used [-Wunused-function]
+     static void uart_TX_emptyInterruptEna(u32 reg, char Ena){
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../driver/uart.h:185:17: warning: 'uart_writeHex' defined but not used [-Wunused-function]
+     static void uart_writeHex(u32 reg, int value){
+                 ^~~~~~~~~~~~~
+../driver/uart.h:164:17: warning: 'uart_applyConfig' defined but not used [-Wunused-function]
+     static void uart_applyConfig(u32 reg, Uart_Config *config){
+                 ^~~~~~~~~~~~~~~~
+../driver/uart.h:143:17: warning: 'uart_read' defined but not used [-Wunused-function]
+     static char uart_read(u32 reg){
+                 ^~~~~~~~~
+../driver/uart.h:125:17: warning: 'uart_writeStr' defined but not used [-Wunused-function]
+     static void uart_writeStr(u32 reg, const char* str){
+                 ^~~~~~~~~~~~~
+LD gpioTest
+Memory region         Used Size  Region Size  %age Used
+d:/efinity/efinity-riscv-ide-2024.2/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/bin/ld.exe: build/obj_files/main.o: in function `trigger_button_action':
+             ram:       33440 B        48 KB     68.03%
+C:\Users\Jianguo_Nut\Desktop\Ti60F225_tinyml_vision\embedded_sw\soc_touch\software\standalone\gpioTest/src/main.c:143: undefined reference to `externalInterrupt'
+collect2.exe: error: ld returned 1 exit status
+make: *** [../common/standalone.mk:31: build/gpioTest.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+00:35:02 Build Failed. 3 errors, 25 warnings. (took 411ms)
+

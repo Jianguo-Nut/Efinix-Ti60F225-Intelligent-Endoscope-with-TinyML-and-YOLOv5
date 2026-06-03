@@ -1,0 +1,334 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+                              build/obj_files/start.o (__libc_init_array)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/main.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .group         0x0000000000000000        0xc build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000      0x766 build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000       0x22 build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000       0x8e build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000       0x51 build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000      0x103 build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000       0x6a build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000      0x1df build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000       0xc4 build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000      0x196 build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000       0x10 build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000000000       0x2e build/obj_files/arduinoGPIO.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000001000000 0x000000000ffff000 axwl !r
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/obj_files/main.o
+LOAD build/obj_files/arduinoGPIO.o
+LOAD build/obj_files/start.o
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+                0x0000000000000800                __stack_size = DEFINED (__stack_size)?__stack_size:0x800
+
+.init           0x0000000001000000       0xa4
+ *(SORT_NONE(.init))
+ .init          0x0000000001000000       0xa4 build/obj_files/start.o
+                0x0000000001000000                _start
+                0x0000000001000014                smp_slave
+                0x0000000001000038                smp_unlock
+                0x00000000010000a0                _init
+
+.text           0x00000000010000a4      0x74c
+ *(.text.Proc_1)
+ *(.text.Proc_2)
+ *(.text.Proc_3)
+ *(.text.Proc_4)
+ *(.text.Proc_5)
+ *(.text.Proc_6)
+ *(.text.Proc_7)
+ *(.text.Proc_8)
+ *(.text.Func_1)
+ *(.text.Func_2)
+ *(.text.Func_3)
+ *(.text.strcpy)
+ *libc.a:*(.text .text.*)
+ .text          0x00000000010000a4        0x0 d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000010000a4       0x94 d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+                0x00000000010000a4                __libc_init_array
+ *(.text.main)
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ *(.text .text.*)
+ .text          0x0000000001000138      0x588 build/obj_files/main.o
+                0x0000000001000588                main
+ .text          0x00000000010006c0      0x130 build/obj_files/arduinoGPIO.o
+                0x00000000010006c0                pinMode
+                0x0000000001000720                digitalWrite
+                0x000000000100074c                digitalRead
+                0x000000000100075c                attachInterrupt
+                0x00000000010007b0                detachInterrupt
+ .text          0x00000000010007f0        0x0 build/obj_files/start.o
+ *(.gnu.linkonce.t.*)
+ *(.note.gnu.build-id)
+
+.rela.dyn       0x00000000010007f0        0x0
+ .rela.init     0x00000000010007f0        0x0 build/obj_files/main.o
+ .rela.text.__libc_init_array
+                0x00000000010007f0        0x0 build/obj_files/main.o
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x00000000010007f0                . = ALIGN (0x4)
+
+.preinit_array  0x00000000010007f0        0x0
+                0x00000000010007f0                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x00000000010007f0                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00000000010007f0        0x0
+                0x00000000010007f0                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                0x00000000010007f0                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000000010007f0        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.lalign         0x00000000010007f0        0x0
+                0x00000000010007f0                PROVIDE (_data_lma = .)
+
+.dalign         0x00000000010007f0        0x0
+                0x00000000010007f0                PROVIDE (_data = .)
+
+.data           0x00000000010007f0       0xba
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata.str1.4
+                0x00000000010007f0       0xb0 build/obj_files/main.o
+                                         0xaf (size before relaxing)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data          0x00000000010008a0        0x0 build/obj_files/main.o
+ .data          0x00000000010008a0        0x0 build/obj_files/arduinoGPIO.o
+ .data          0x00000000010008a0        0x0 build/obj_files/start.o
+ .data          0x00000000010008a0        0x0 d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ *(.gnu.linkonce.d.*)
+                0x00000000010008a0                . = ALIGN (0x8)
+ *fill*         0x00000000010008a0        0x0 
+                0x0000000001001090                PROVIDE (__global_pointer$ = (. + 0x7f0))
+ *(.sdata .sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x00000000010008a0                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x00000000010008aa                . = (. + 0xa)
+ *fill*         0x00000000010008a0        0xa 
+                0x00000000010008ac                . = ALIGN (0x4)
+                0x00000000010008ac                PROVIDE (_edata = .)
+                [!provide]                        PROVIDE (edata = .)
+                [!provide]                        PROVIDE (_fbss = .)
+                0x00000000010008ac                PROVIDE (__bss_start = .)
+
+.bss            0x00000000010008ac        0x8
+ *(.sbss*)
+ *(.gnu.linkonce.sb.*)
+ *(.bss .bss.*)
+ .bss           0x00000000010008ac        0x0 build/obj_files/main.o
+ .bss           0x00000000010008ac        0x0 build/obj_files/arduinoGPIO.o
+ .bss           0x00000000010008ac        0x8 build/obj_files/start.o
+                0x00000000010008ac                smp_lottery_target
+                0x00000000010008b0                smp_lottery_lock
+ .bss           0x00000000010008b4        0x0 d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x00000000010008b4                . = ALIGN (0x4)
+                0x00000000010008b8                . = ALIGN (0x8)
+                0x00000000010008b8                PROVIDE (_end = .)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x00000000010008c0      0x800
+                [!provide]                        PROVIDE (_heap_end = .)
+                0x0000000000000800                . = __stack_size
+ *fill*         0x00000000010008c0      0x800 
+                0x00000000010010c0                PROVIDE (_sp = .)
+                0x00000000010010c0                __freertos_irq_stack_top = .
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libm.a
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libg.a
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+END GROUP
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/rv32im/ilp32\libgcc.a
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a
+LOAD d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libnosys.a
+END GROUP
+OUTPUT(build/gpioDemo.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x1c9e
+ .debug_info    0x0000000000000000     0x12b7 build/obj_files/main.o
+ .debug_info    0x00000000000012b7      0x9c1 build/obj_files/arduinoGPIO.o
+ .debug_info    0x0000000000001c78       0x26 build/obj_files/start.o
+
+.debug_abbrev   0x0000000000000000      0x5da
+ .debug_abbrev  0x0000000000000000      0x44c build/obj_files/main.o
+ .debug_abbrev  0x000000000000044c      0x17a build/obj_files/arduinoGPIO.o
+ .debug_abbrev  0x00000000000005c6       0x14 build/obj_files/start.o
+
+.debug_loc      0x0000000000000000      0xa3c
+ .debug_loc     0x0000000000000000      0x3f2 build/obj_files/main.o
+ .debug_loc     0x00000000000003f2      0x64a build/obj_files/arduinoGPIO.o
+
+.debug_aranges  0x0000000000000000       0x60
+ .debug_aranges
+                0x0000000000000000       0x20 build/obj_files/main.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/obj_files/arduinoGPIO.o
+ .debug_aranges
+                0x0000000000000040       0x20 build/obj_files/start.o
+
+.debug_macro    0x0000000000000000     0x1ee1
+ .debug_macro   0x0000000000000000      0x1ec build/obj_files/main.o
+ .debug_macro   0x00000000000001ec      0x766 build/obj_files/main.o
+ .debug_macro   0x0000000000000952       0x22 build/obj_files/main.o
+ .debug_macro   0x0000000000000974       0x8e build/obj_files/main.o
+ .debug_macro   0x0000000000000a02       0x51 build/obj_files/main.o
+ .debug_macro   0x0000000000000a53      0x103 build/obj_files/main.o
+ .debug_macro   0x0000000000000b56       0x6a build/obj_files/main.o
+ .debug_macro   0x0000000000000bc0      0x1df build/obj_files/main.o
+ .debug_macro   0x0000000000000d9f      0x196 build/obj_files/main.o
+ .debug_macro   0x0000000000000f35       0xc4 build/obj_files/main.o
+ .debug_macro   0x0000000000000ff9       0x10 build/obj_files/main.o
+ .debug_macro   0x0000000000001009       0x1c build/obj_files/main.o
+ .debug_macro   0x0000000000001025       0x16 build/obj_files/main.o
+ .debug_macro   0x000000000000103b      0x1d7 build/obj_files/main.o
+ .debug_macro   0x0000000000001212       0x1c build/obj_files/main.o
+ .debug_macro   0x000000000000122e       0x70 build/obj_files/main.o
+ .debug_macro   0x000000000000129e       0x58 build/obj_files/main.o
+ .debug_macro   0x00000000000012f6       0x19 build/obj_files/main.o
+ .debug_macro   0x000000000000130f       0x52 build/obj_files/main.o
+ .debug_macro   0x0000000000001361       0x34 build/obj_files/main.o
+ .debug_macro   0x0000000000001395       0x34 build/obj_files/main.o
+ .debug_macro   0x00000000000013c9       0x16 build/obj_files/main.o
+ .debug_macro   0x00000000000013df      0x10e build/obj_files/main.o
+ .debug_macro   0x00000000000014ed       0x8d build/obj_files/main.o
+ .debug_macro   0x000000000000157a       0x16 build/obj_files/main.o
+ .debug_macro   0x0000000000001590       0x43 build/obj_files/main.o
+ .debug_macro   0x00000000000015d3       0x34 build/obj_files/main.o
+ .debug_macro   0x0000000000001607       0x10 build/obj_files/main.o
+ .debug_macro   0x0000000000001617       0x52 build/obj_files/main.o
+ .debug_macro   0x0000000000001669      0x182 build/obj_files/main.o
+ .debug_macro   0x00000000000017eb      0x339 build/obj_files/main.o
+ .debug_macro   0x0000000000001b24       0x16 build/obj_files/main.o
+ .debug_macro   0x0000000000001b3a       0x29 build/obj_files/main.o
+ .debug_macro   0x0000000000001b63      0x1a9 build/obj_files/main.o
+ .debug_macro   0x0000000000001d0c       0x16 build/obj_files/main.o
+ .debug_macro   0x0000000000001d22       0x35 build/obj_files/main.o
+ .debug_macro   0x0000000000001d57       0x10 build/obj_files/main.o
+ .debug_macro   0x0000000000001d67       0x2e build/obj_files/main.o
+ .debug_macro   0x0000000000001d95       0x2e build/obj_files/main.o
+ .debug_macro   0x0000000000001dc3       0x4c build/obj_files/main.o
+ .debug_macro   0x0000000000001e0f       0x8c build/obj_files/arduinoGPIO.o
+ .debug_macro   0x0000000000001e9b       0x46 build/obj_files/arduinoGPIO.o
+
+.debug_line     0x0000000000000000     0x12ce
+ .debug_line    0x0000000000000000      0xb06 build/obj_files/main.o
+ .debug_line    0x0000000000000b06      0x6ab build/obj_files/arduinoGPIO.o
+ .debug_line    0x00000000000011b1      0x11d build/obj_files/start.o
+
+.debug_str      0x0000000000000000     0x8bea
+ .debug_str     0x0000000000000000     0x8aaf build/obj_files/main.o
+                                       0x8d6e (size before relaxing)
+ .debug_str     0x0000000000008aaf      0x11a build/obj_files/arduinoGPIO.o
+                                       0x4318 (size before relaxing)
+ .debug_str     0x0000000000008bc9       0x21 build/obj_files/start.o
+                                         0x86 (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 build/obj_files/main.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 build/obj_files/arduinoGPIO.o
+
+.debug_frame    0x0000000000000000      0x278
+ .debug_frame   0x0000000000000000      0x1dc build/obj_files/main.o
+ .debug_frame   0x00000000000001dc       0x60 build/obj_files/arduinoGPIO.o
+ .debug_frame   0x000000000000023c       0x3c d:/efinity/efinity-riscv-ide-2025.1/toolchain/bin/../lib/gcc/riscv-none-embed/8.3.0/../../../../riscv-none-embed/lib/rv32im/ilp32\libc.a(lib_a-init.o)

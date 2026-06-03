@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+gdb.client.commands=set mem inaccessible-by-default off\r\nset arch riscv\:rv32\r\nset remotetimeout 250
+gdb.client.doStart=true
+gdb.client.executable=${eclipse_home}/../toolchain/bin/riscv-none-embed-gdb.exe
+gdb.client.other=
+gdb.openocd.doDebugInRam=true
+gdb.openocd.doInitialReset=true
+gdb.openocd.doPreRunReset=true
+gdb.openocd.enableSemihosting=true
+gdb.openocd.init.other=
+gdb.openocd.initialReset.type=init
+gdb.openocd.preRun.other=
+gdb.openocd.preRunReset.type=halt
+gdb.server.doStart=true
+gdb.server.executable=${eclipse_home}/../openocd/bin/openocd.exe
+gdb.server.other=-c 'set bsp_loc {D\:\\efinity project\\Ti60F225_tinyml_vision\\embedded_sw\\sapphire_soc_tinyml}'\r\n-f 'D\:\\efinity project\\Ti60F225_tinyml_vision\\embedded_sw\\sapphire_soc_tinyml/bsp/efinix/EfxSapphireSoc/openocd/ftdi_ti.cfg'\r\n-f 'D\:\\efinity project\\Ti60F225_tinyml_vision\\embedded_sw\\sapphire_soc_tinyml/bsp/efinix/EfxSapphireSoc/openocd/debug_ti.cfg'

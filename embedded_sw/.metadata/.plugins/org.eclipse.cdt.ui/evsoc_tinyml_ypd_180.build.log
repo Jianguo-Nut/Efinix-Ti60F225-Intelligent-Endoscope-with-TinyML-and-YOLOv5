@@ -1,0 +1,8 @@
+10:24:59 **** Build of configuration Default for project evsoc_tinyml_ypd_180 ****
+make all 
+makefile:88: ../common/tinyml_riscv64-unknown-elf.mk: No such file or directory
+make: *** No rule to make target '../common/tinyml_riscv64-unknown-elf.mk'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:24:59 Build Failed. 1 errors, 1 warnings. (took 158ms)
+

@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:bootloader_ti,org.eclipse.launchbar.core.descriptorType.default\:bootloader_trion,org.eclipse.launchbar.core.descriptorType.default\:bootloader_tz,org.eclipse.launchbar.core.descriptorType.default\:evsoc_tinyml_ypd_ti,org.eclipse.launchbar.core.descriptorType.default\:evsoc_tinyml_ypd_trion,org.eclipse.launchbar.core.descriptorType.default\:evsoc_tinyml_ypd_tz
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:bootloader_softTap/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:bootloader_softTap/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:bootloader_ti/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:bootloader_ti/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
